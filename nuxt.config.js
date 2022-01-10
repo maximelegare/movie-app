@@ -46,6 +46,6 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   env:{
-    movieApiKey:'79c3f6d84948ad266db420df61b6c997'
+    movieApiKey:process.env.VUE_APP_MOVIE_API
   }
 }
